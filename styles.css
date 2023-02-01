@@ -1,0 +1,45 @@
+header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 70%;
+}
+
+header h1 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: xx-large;
+}
+
+header h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    background-color: white;
+    border-color: black;
+}
+
+.main-nav-container {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.link-selected {
+    text-decoration: none;
+    color: black;
+}
