@@ -1,18 +1,22 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    max-width: 992px;
+    margin: 0 auto;
 }
+
 
 header img {
     width: 100%;
     height: 400px;
     object-fit: cover;
-    opacity: 70%;
+    opacity: 60%;
 }
 
 header h1 {
     position: absolute;
-    top: 100px;
-    left: 20px;
+    top: 150px;
+    margin-left: 20px;
     font-size: xx-large;
 }
 
@@ -20,19 +24,26 @@ header h2 {
     background-color: black;
     color: white;
     text-align: center;
+    letter-spacing: 10px;
 }
 
 .logo {
-    width: 200px;
-    position: absolute;
-    top: 300px;
-    right: 10px;
+    width: 150px;
+    position: absolute;  
+    top: 350px;  
     background-color: white;
-    border-color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .main-nav-container {
-    display: flex;
+    display: flex; 
 }
 
 nav {
@@ -48,11 +59,13 @@ nav {
     color: black;
 }
 
+main {
+    padding: 10px;
+}
+
 table{
     width: 100%;
 }
-
-
 
 .justify-between{
     display: flex;
