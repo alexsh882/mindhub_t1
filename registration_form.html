@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/Logo_Mighty_ducks_fav.png" />
+
+</head>
+
+<body class="container">
+    <header>
+        <img src="./img/design1_image1.jpg" alt="Portada">
+        <h1>
+            Mighty Ducks Hockey League
+        </h1>
+        <h2>Registration Form</h2>
+    </header>
+    <div class="logo-container">
+        <img class="logo" src="./img/Logo Mighty ducks-01.png" alt="Logo">
+    </div>
+    <div class="main-nav-container">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./game_information.html">Game Info</a>
+            <a href="./rules.html">Rules</a>
+            <a class="link-selected" href="./index.html">Registration</a>
+        </nav>
+        <main>
+            <h1>Registration Form</h1>
+            <form action="show_data.html" method="GET">
+                <div class="flex flex-row w-100 p-2 m-2 ">
+                    <label class="p-2 m-2 w-max-content" for="name">Player's First Name: </label>
+                    <input class="w-100 border-b" type="text" name="name">
+                    <label class="p-2 m-2 w-max-content" for="lastname">Last Name: </label>
+                    <input class="w-100 border-b" type="text" name="lastname">
+                </div>
+                <div class="flex w-100 p-2 m-2">
+                    <label class="w-max-content" for="address">Street Address:</label>
+                    <input class="w-100 border-b" type="text" name="address">
+                </div>
+                <div class="flex w-100 p-2 m-2">
+
+                    <label class="w-max-content" for="city">City:</label>
+                    <input class="w-100 border-b" type="text" name="city">
+
+                    <label class="w-max-content" for="zipcode">Zip Code:</label>
+                    <input class="w-100 border-b" type="text" name="zipcode">
+                </div>
+                <div class="flex w-100 p-2 m-2">
+                    <div class="w-100">
+                        <label class="w-max-content" for="birthdate">Birth Date (mm/dd/yyyy):</label>
+                        <input class="w-min-content border-b" type="date" name="birthdate">
+                    </div>
+                    <div class="w-100 p-2 m-2">
+                        <label class="w-max-content" for="gender">Gender:</label>
+                        <span>Male</span>
+                        <input type="radio" name="gender">
+                        <span>Female</span>
+                        <input type="radio" name="gender">
+                    </div>
+                </div>
+                <div class="p-2 m-2 w-max-content">
+                    <span>Grade:</span>
+                    <input type="radio" name="grade"><span>Pre-School</span>
+                    <input type="radio" name="grade"><small>1st</small>
+                    <input type="radio" name="grade"><small>2nd</small>
+                    <input type="radio" name="grade"><small>3rd</small>
+                    <input type="radio" name="grade"><small>5th</small>
+                </div>
+                <h3>Which elementary school do you live near</h3>
+                <div class="flex w-max-content">
+                    <strong>Closest School:</strong>
+                    <select class="flex w-max-content" name="school">
+                        <option  selected disabled>-- Select --</option>
+                        <option value="aj-katzenmaier">Aj Katzenmaier</option>
+                        <option value="greenbay">Greenbay</option>
+                        <option value="howard-a-yeager">Howard A Yeager</option>
+                        <option value="marjorie-p-hart">Marjorie P Hart</option>
+                        <option value="north-elementary">North Elementary</option>
+                        <option value="south-elementary">South Elementary</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>What position(s) do you normally play? (check all at apply)</h3>
+                    <input type="checkbox" name="forward"><small>Forward</small>
+                    <input type="checkbox" name="defense"><small>Defense</small>
+                    <input type="checkbox" name="midfield"><small>Midfield</small>
+                    <input type="checkbox" name="goalkeeper"><small>Goalkeeper</small>
+
+                </div>
+                <div>
+                    <h3>Uniform Size:</h3>
+                    <input type="radio" name="size"><span>Youth Small</span>
+                    <input type="radio" name="size"><span>Youth Medium</span>
+                    <input type="radio" name="size"><span>Youth Large</span>
+                    <input type="radio" name="size"><span>Small</span>
+                    <input type="radio" name="size"><span>Medium</span>
+                    <input type="radio" name="size"><span>Large</span>
+                    <input type="radio" name="size"><span>Extra-Large</span>
+                </div>
+                <div>
+
+                    <h3>Permission to Play</h3>
+                    <p class="text-justify"> l, the parent or guardian of the minor registrant, agree that the
+                        registrant
+                        and I will abide by all
+                        the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                        injury
+                        associated with hockey and in consideration for the "League" accepting the registrant for its
+                        hockey
+                        programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                        employees and associated personnel and volunteers,including the facilities used for practices
+                        and
+                        games,
+                        against any claim by or on behalf of the registrant as a result of the registrant's
+                        participation in
+                        the
+                        programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                        By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    <p>Parent/GuardianSignature:__________________</p>
+                    <p>Date:__________________</p>
+                </div>
+
+                <input type="submit" value="Send">
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

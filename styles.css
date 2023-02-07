@@ -24,7 +24,6 @@ header h2 {
     background-color: black;
     color: white;
     text-align: center;
-    letter-spacing: 10px;
 }
 
 .logo {
@@ -85,3 +84,85 @@ table{
 dt{
     font-weight: bold;
 }
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-max-content{
+    width: max-content;
+    white-space: nowrap;
+}
+
+.w-min-content{
+    width: min-content;
+}
+
+.m-2{
+    margin: 2px;
+}
+
+.p-2{
+    padding: 2px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+.border-b{
+    border: 0;
+    border-bottom:solid 1px black;
+ }
+
+ .container-maps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .container-map-info{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: black;
+    color: white;
+ }
+
+ .map {
+    width: 100%;
+    height: 100%;
+ }
